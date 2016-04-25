@@ -17,21 +17,13 @@
     self = [super init];
     if (self) {
         self.messageModel = [[MessageModel alloc] init];
-        MessageAction *messageAction = [[MessageAction alloc] init];
-
-        [[[NSNotificationCenter defaultCenter] rac_addObserverForName:messageAction.ACTION_NEW_MESSAGE object:nil] subscribeNext:^(NSNotification* x) {
-            [self.messageModel setMessage:(NSString *) x.object];
-//            mMessage.setMessage((String) action.getData());
-            NSLog(@"技巧1：%@", self.messageModel.message);
-            NSLog(@"技巧：%@", x.userInfo[@"技巧"]);
-        }];
     }
 
     return self;
 }
 
 -(void) onAction:(Action *) action {
-    if ([action.type isEqualToString:@"ACTION_NEW_MESSAGE"]) {
+    if (action.type == ACTION_NEW_MESSAGE) {
         [self.messageModel setMessage:(NSString *)action.data];
     }
 

@@ -4,16 +4,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FluxActionTypes.h"
 
 
 @interface Action : NSObject
 {
-    NSString * _type;
+    NSInteger *_type;
     NSObject * _data;
 }
-- (instancetype)initWithAction:(NSString *)type data:(NSObject *)data;
+- (instancetype)initWithAction:(NSInteger *)type data:(NSObject *)data;
 
-+ (instancetype)actionWithAction:(NSString *)type data:(NSObject *)data;
++ (instancetype)actionWithAction:(NSInteger *)type data:(NSObject *)data;
 
 //@property(nonatomic, strong)NSString * type;
 //@property(nonatomic, strong)NSObject * data;
@@ -21,6 +22,6 @@
 //-(id) initWithAction:(NSString *) type data:(NSObject *) data;
 
 
--(NSString *) type;
+-(ENUM_ActionType) type;
 -(NSObject *) data;
 @end

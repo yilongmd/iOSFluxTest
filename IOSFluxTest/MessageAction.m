@@ -14,14 +14,14 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.ACTION_NEW_MESSAGE = @"ACTION_NEW_MESSAGE";
+
     }
 
     return self;
 }
 
 
-+ (id)initWithMessageAction:(NSString *)type data:(NSString *)data {
++ (id)initWithMessageAction:(NSInteger *)type data:(NSString *)data {
     return [super actionWithAction:type data:data];
 }
 

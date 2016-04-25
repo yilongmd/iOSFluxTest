@@ -9,9 +9,9 @@
 
 @interface MessageAction : Action
 
-@property(nonatomic, copy)  NSString * ACTION_NEW_MESSAGE ;
 
-+(id) initWithMessageAction:(NSString *) type data:(NSString *)data;
+
++(id)initWithMessageAction:(NSInteger *) type data:(NSString *)data;
 
 //定义枚举类型
 //typedef enum {

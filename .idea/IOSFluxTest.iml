@@ -204,12 +204,14 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACPropertySubscribing.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIBarButtonItem+RACCommandSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Action.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageModel.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageAction.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageModel.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/FluxActionTypes.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageAction.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Dispatcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/ActionsCreator.m" isTestSource="false" />
@@ -218,7 +220,7 @@
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Store.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/ActionsCreator.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Action.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/FluxActionTypes.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/ViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/IOSFluxTest.xcdatamodeld/IOSFluxTest.xcdatamodel" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Dispatcher.h" isTestSource="false" />
@@ -232,8 +234,9 @@
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTestUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTestUITests/IOSFluxTestUITests.m" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/IOSFluxTest-blgqjxltytnckjdfguipakcxfqeh/Build/Products/Debug-iphoneos/libPods-IOSFluxTest.a">
-      <sourceFolder url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/IOSFluxTest-blgqjxltytnckjdfguipakcxfqeh/Build/Products/Debug-iphoneos/libPods-IOSFluxTest.a" isTestSource="false" />
+    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/IOSFluxTest-fvvsfvzkrpurqygxemizzmwztong/Build/Intermediates/Pods.build/Debug-iphoneos/ReactiveCocoa.build/DerivedSources" />
+    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/IOSFluxTest-fvvsfvzkrpurqygxemizzmwztong/Build/Products/Debug-iphonesimulator/libPods-IOSFluxTest.a">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/IOSFluxTest-fvvsfvzkrpurqygxemizzmwztong/Build/Products/Debug-iphonesimulator/libPods-IOSFluxTest.a" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

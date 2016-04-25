@@ -20,7 +20,7 @@
 //    return self;
 //}
 
-- (instancetype)initWithAction:(NSString *)type data:(NSObject *)data {
+- (instancetype)initWithAction:(NSInteger *)type data:(NSObject *)data {
     self = [super init];
     if (self) {
         _type = type;
@@ -30,12 +30,12 @@
     return self;
 }
 
-+ (instancetype)actionWithAction:(NSString *)type data:(NSObject *)data {
++ (instancetype)actionWithAction:(NSInteger *)type data:(NSObject *)data {
     return [[self alloc] initWithAction:type data:data];
 }
 
 
-- (NSString *)type {
+- (ENUM_ActionType)type {
     return _type;
 }
 

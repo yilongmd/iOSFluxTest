@@ -25,6 +25,7 @@
 		1BEC6E1010D2E0B8BE1C1ED0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC668381D5879774F6626F /* ViewController.m */; };
 		1BEC6EC7BA4B6C8A56899F92 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60D90B1964DA5D81AF79 /* Info.plist */; };
 		1BEC6EFBCC78B0286D7ECA2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC67C488610E81B89081F3 /* AppDelegate.m */; };
+		1BEC6F6EAEE80199AEFE94A5 /* FluxActionTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC622F4B605A511D9D6E37 /* FluxActionTypes.m */; };
 		1BEC6F78341A0CFAC2B9223B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC6556C9AD38E99B2BEC78 /* Main.storyboard */; };
 		1BEC6F830DA9758116066B6A /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6EFD0242DAB7C89CCBD6 /* Store.m */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		1BEC60D90B1964DA5D81AF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1BEC61A2E13E2B087FE1E41C /* IOSFluxTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSFluxTestUITests.m; sourceTree = "<group>"; };
 		1BEC61C9499808925FCCFF8D /* IOSFluxTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSFluxTest.xcdatamodel; sourceTree = "<group>"; };
+		1BEC622F4B605A511D9D6E37 /* FluxActionTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluxActionTypes.m; sourceTree = "<group>"; };
 		1BEC63969E3E607109AE2847 /* IOSFluxTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSFluxTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC64815F66D1660816FCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEC64915819A92171A9E095 /* Dispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dispatcher.m; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		1BEC6611A8829B878D100DD8 /* MessageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageAction.h; sourceTree = "<group>"; };
 		1BEC668381D5879774F6626F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1BEC66B508D621EF862BDFBB /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		1BEC67423853380BFD0A61CD /* FluxActionTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluxActionTypes.h; sourceTree = "<group>"; };
 		1BEC675C78820D93EC17D0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1BEC678112BAC2430B7EEB24 /* IOSFluxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFluxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC67C488610E81B89081F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -144,6 +147,7 @@
 				1BEC6AD13A2F3A3F6B63CDDE /* Model */,
 				1BEC6F5F0669013AF252054E /* Stores */,
 				1BEC699700221B85E7F3D4BC /* View */,
+				1BEC6BFA07CD30007666B50A /* ActionType */,
 			);
 			name = First;
 			sourceTree = "<group>";
@@ -231,6 +235,15 @@
 				1BEC65C3990B17B539CE38F7 /* MessageModel.h */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		1BEC6BFA07CD30007666B50A /* ActionType */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC622F4B605A511D9D6E37 /* FluxActionTypes.m */,
+				1BEC67423853380BFD0A61CD /* FluxActionTypes.h */,
+			);
+			name = ActionType;
 			sourceTree = "<group>";
 		};
 		1BEC6E7904E6E7372E601B2D /* Flux */ = {
@@ -457,6 +470,7 @@
 				1BEC67CD18E0553FA5E5FF42 /* MessageStore.m in Sources */,
 				1BEC6E1010D2E0B8BE1C1ED0 /* ViewController.m in Sources */,
 				1BEC6C92EAA01C0596CB2467 /* MessageAction.m in Sources */,
+				1BEC6F6EAEE80199AEFE94A5 /* FluxActionTypes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,7 +41,7 @@
 
 //用户自定义事件
 -(void) sendMessage:(NSString *) message {
-    MessageAction *messageAction = [MessageAction initWithMessageAction:@"ACTION_NEW_MESSAGE" data:message];
+    MessageAction *messageAction = [MessageAction initWithMessageAction:ACTION_NEW_MESSAGE data:message];
     [_dispatcher dispatch:messageAction];
 }
 
