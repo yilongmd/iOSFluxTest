@@ -35,7 +35,9 @@
         [self.messageModel setMessage:(NSString *)action.data];
     }
 
-//    [self emitStoreChange];
+
+
+    [self emitStoreChange];
 }
 
 @end

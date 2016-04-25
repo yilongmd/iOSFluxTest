@@ -11,6 +11,9 @@
 #import "Dispatcher.h"
 #import "ActionsCreator.h"
 #import "MessageStore.h"
+#import "NSNotificationCenter+RACSupport.h"
+#import "RACSignal.h"
+#import "MessageModel.h"
 
 
 @interface ViewController ()
@@ -23,6 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initDependencies];
+    [self setupView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -39,7 +43,15 @@
     [_dispatcher registerStore:_store];
 }
 -(void) setupView {
+    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"changeui" object:nil] subscribeNext:^(NSNotification* x) {
+        [self render:_store];
+    }];
 
+}
+
+-(void) render:(MessageStore *) store {
+    _lblShow.text = store.messageModel.message;
+//    vMessageView.setText(store.getMessage());
 }
 
 
