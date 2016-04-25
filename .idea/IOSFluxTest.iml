@@ -2,20 +2,238 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTestUITests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTestUITests/IOSFluxTestUITests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTestTests/IOSFluxTestTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTestTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/ViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/AppDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSUserDefaults+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSFileHandle+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIBarButtonItem+RACCommandSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACLifting.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSUserDefaults+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSFileHandle+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIRefreshControl+RACCommandSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSString+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIRefreshControl+RACCommandSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSubscriber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACKVOWrapper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACTargetQueueScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACQueueScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACCompoundDisposable.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACBlockTrampoline.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACKVOWrapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACQueueScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACObjCRuntime.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACTupleSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSSet+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACEmptySequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIAlertView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UITextView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIControl+RACSignalSupportPrivate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACLifting.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIAlertView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UITextView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIControl+RACSignalSupportPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UITableViewHeaderFooterView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACErrorSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UISegmentedControl+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UICollectionReusableView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACErrorSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACMulticastConnection+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UISegmentedControl+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACCompoundDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACDisposable.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIDatePicker+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIDatePicker+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSIndexSet+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACGroupedSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACUnit.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSerialDisposable.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACGroupedSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACUnit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSerialDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACArraySequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACCompoundDisposableProvider.d" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACScopedDisposable.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACBehaviorSubject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSubscriptionScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSURLConnection+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACScopedDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACDeallocating.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSInvocation+RACTypeParsing.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSURLConnection+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSString+RACKeyPathUtilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UISlider+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACBehaviorSubject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSString+RACKeyPathUtilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSInvocation+RACTypeParsing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UISlider+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACEagerSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSData+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACReturnSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIButton+RACCommandSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSIndexSet+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACReturnSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSData+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACKVOProxy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSNotificationCenter+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIImagePickerController+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACKVOProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UITextField+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIImagePickerController+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UITextField+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACIndexSetSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACDelegateProxy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACIndexSetSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACTestScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACDeallocating.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSubscriptingAssignmentTrampoline.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACScheduler+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACTestScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACStream.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACTuple.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACReplaySubject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSSet+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACStream.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/MKAnnotationView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACReplaySubject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACDelegateProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACTupleSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/MKAnnotationView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIControl+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACDynamicSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIControl+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACDynamicSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACEmptySignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSignal+Operations.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACEmptySignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACStringSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UISwitch+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/extobjc/RACEXTKeyPathCoding.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/extobjc/RACmetamacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/extobjc/RACEXTRuntimeExtensions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/extobjc/RACEXTScope.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/extobjc/RACEXTRuntimeExtensions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UISwitch+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACKVOTrampoline.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACSelectorSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSDictionary+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACKVOTrampoline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACEmptySequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACSelectorSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSDictionary+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACPassthroughSubscriber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UITableViewHeaderFooterView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIActionSheet+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACObjCRuntime.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIActionSheet+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSubject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSubject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACValueTransformer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACChannel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACUnarySequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACStringSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACChannel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACUnarySequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACValueTransformer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACPassthroughSubscriber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSubscriptingAssignmentTrampoline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACMulticastConnection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACImmediateScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSubscriber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACMulticastConnection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACImmediateScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACTargetQueueScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSString+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSEnumerator+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACScheduler+Subclass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSignal+Operations.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSArray+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSEnumerator+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACArraySequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UITableViewCell+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSArray+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UICollectionReusableView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UITableViewCell+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSignalProvider.d" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACBlockTrampoline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACTuple.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACStream+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACQueueScheduler+Subclass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSubscriptionScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSubscriber+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACPropertySubscribing.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACDynamicSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACCommand.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIStepper+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSignalSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACCommand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACDynamicSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIStepper+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACDescription.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACSignalSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIButton+RACCommandSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACEagerSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACDescription.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSNotificationCenter+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACKVOChannel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSString+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/RACKVOChannel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSString+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/NSObject+RACPropertySubscribing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/UIBarButtonItem+RACCommandSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageAction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageModel.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/IOSFluxTest.xcdatamodeld/IOSFluxTest.xcdatamodel" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/ViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Dispatcher.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/ActionsCreator.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Action.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Store.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/ActionsCreator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Action.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/ViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/IOSFluxTest.xcdatamodeld/IOSFluxTest.xcdatamodel" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Dispatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageStore.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/ViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/Store.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/AppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/MessageStore.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTest/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTestUITests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOSFluxTestUITests/IOSFluxTestUITests.m" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/IOSFluxTest-blgqjxltytnckjdfguipakcxfqeh/Build/Products/Debug-iphoneos/libPods-IOSFluxTest.a">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/IOSFluxTest-blgqjxltytnckjdfguipakcxfqeh/Build/Products/Debug-iphoneos/libPods-IOSFluxTest.a" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

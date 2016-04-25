@@ -8,6 +8,9 @@
 
 
 #import "ViewController.h"
+#import "Dispatcher.h"
+#import "ActionsCreator.h"
+#import "MessageStore.h"
 
 
 @interface ViewController ()
@@ -19,8 +22,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initDependencies];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
+-(void) initDependencies {
+    //获取调度员
+    _dispatcher = [Dispatcher instance];
+    //创造
+    _actionsCreator = [[ActionsCreator alloc] initWithDispatcher:_dispatcher];
+    //管理model和处理后的数据源
+    _store = [[MessageStore alloc] init];
+
+    //注册到Store池
+    [_dispatcher registerStore:_store];
+}
+-(void) setupView {
+
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -28,4 +49,8 @@
 }
 
 
+- (IBAction)btnEditClick:(UIButton *)sender {
+    [_actionsCreator sendMessage:_inputText.text];
+    _inputText.text = @"";
+}
 @end

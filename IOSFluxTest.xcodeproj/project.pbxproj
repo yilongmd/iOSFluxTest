@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A558C1773E07595F8E115F /* libPods-IOSFluxTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A82923400BB8A6D920C9C08D /* libPods-IOSFluxTest.a */; };
 		1BEC6196B8B8387A9BC2D3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC61EF4BA1A1380B95AE33 /* LaunchScreen.storyboard */; };
 		1BEC626119F0DEA44FA2DE0E /* IOSFluxTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC658D45B738DD1AB34617 /* IOSFluxTestTests.m */; };
+		1BEC630DC6BED71C566C0993 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC66B508D621EF862BDFBB /* Action.m */; };
 		1BEC634F705D1672BED6C2A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC6AA66ECEB4A3144DE67E /* Info.plist */; };
 		1BEC63DFB720795D5B4B6EF5 /* IOSFluxTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC61A2E13E2B087FE1E41C /* IOSFluxTestUITests.m */; };
+		1BEC6632E3E61128FAED56C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6D48CB8C13ABF1E0050F /* main.m */; };
+		1BEC67CD18E0553FA5E5FF42 /* MessageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC67CE566F14E8792D7909 /* MessageStore.m */; };
+		1BEC689C3F7B343A31DE7447 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6B223C265696768F8322 /* MessageModel.m */; };
 		1BEC6905A33A6F1D5379F315 /* IOSFluxTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC68E87304DED0E1D84C0F /* IOSFluxTest.xcdatamodeld */; };
+		1BEC69BB906A35B44EE838A2 /* ActionsCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6BCC8F78CFF5E64077E9 /* ActionsCreator.m */; };
 		1BEC6A5C57BFDE8DF39E9149 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC675C78820D93EC17D0C3 /* Info.plist */; };
 		1BEC6AF8CD08E2369F1A1E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC64815F66D1660816FCDB /* Assets.xcassets */; };
-		1BEC6D2102DFA52FD959526F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6E5C60033622BB7BA5AC /* ViewController.m */; };
-		1BEC6EBDA37EAED529456B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6E00E0A28FA75AEA7ABD /* main.m */; };
+		1BEC6BC45865F9734C02E257 /* Dispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC64915819A92171A9E095 /* Dispatcher.m */; };
+		1BEC6C92EAA01C0596CB2467 /* MessageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6ACC088F60A4E5072391 /* MessageAction.m */; };
+		1BEC6E1010D2E0B8BE1C1ED0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC668381D5879774F6626F /* ViewController.m */; };
 		1BEC6EC7BA4B6C8A56899F92 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60D90B1964DA5D81AF79 /* Info.plist */; };
 		1BEC6EFBCC78B0286D7ECA2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC67C488610E81B89081F3 /* AppDelegate.m */; };
 		1BEC6F78341A0CFAC2B9223B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC6556C9AD38E99B2BEC78 /* Main.storyboard */; };
+		1BEC6F830DA9758116066B6A /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6EFD0242DAB7C89CCBD6 /* Store.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +48,39 @@
 
 /* Begin PBXFileReference section */
 		1BEC60217FA91041E4B6A6C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BEC60BC82A39E035623C89A /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
 		1BEC60D90B1964DA5D81AF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1BEC61A2E13E2B087FE1E41C /* IOSFluxTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSFluxTestUITests.m; sourceTree = "<group>"; };
 		1BEC61C9499808925FCCFF8D /* IOSFluxTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSFluxTest.xcdatamodel; sourceTree = "<group>"; };
 		1BEC63969E3E607109AE2847 /* IOSFluxTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSFluxTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC64815F66D1660816FCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BEC64915819A92171A9E095 /* Dispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dispatcher.m; sourceTree = "<group>"; };
 		1BEC658D45B738DD1AB34617 /* IOSFluxTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSFluxTestTests.m; sourceTree = "<group>"; };
+		1BEC65C3990B17B539CE38F7 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		1BEC6611A8829B878D100DD8 /* MessageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageAction.h; sourceTree = "<group>"; };
+		1BEC668381D5879774F6626F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BEC66B508D621EF862BDFBB /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
 		1BEC675C78820D93EC17D0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1BEC678112BAC2430B7EEB24 /* IOSFluxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFluxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC67C488610E81B89081F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BEC67CE566F14E8792D7909 /* MessageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageStore.m; sourceTree = "<group>"; };
+		1BEC69F9C2DDA15905B9422A /* ActionsCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsCreator.h; sourceTree = "<group>"; };
 		1BEC6AA66ECEB4A3144DE67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1BEC6AC843398C48C334AB44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BEC6ACC088F60A4E5072391 /* MessageAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageAction.m; sourceTree = "<group>"; };
+		1BEC6B223C265696768F8322 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
 		1BEC6B96BE8EF8C7E3F381CB /* IOSFluxTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSFluxTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BEC6BC16B9F0CE75FB7EBB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BEC6BCC8F78CFF5E64077E9 /* ActionsCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsCreator.m; sourceTree = "<group>"; };
+		1BEC6D23E8AC456F8CA8310E /* Dispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dispatcher.h; sourceTree = "<group>"; };
+		1BEC6D48CB8C13ABF1E0050F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BEC6D6269EBDF40032A10E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1BEC6E00E0A28FA75AEA7ABD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1BEC6E5C60033622BB7BA5AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BEC6EFD0242DAB7C89CCBD6 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		1BEC6F6CD4B1C118983D499E /* MessageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStore.h; sourceTree = "<group>"; };
+		1BEC6F79C9CB69944A700CBC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BEC6FEBDBCB8E2313B2810F /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		2967248B4DB93174218C6950 /* Pods-IOSFluxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFluxTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest.release.xcconfig"; sourceTree = "<group>"; };
+		93BE323007C325BE44AC1EC5 /* Pods-IOSFluxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFluxTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A82923400BB8A6D920C9C08D /* libPods-IOSFluxTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSFluxTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A558C1773E07595F8E115F /* libPods-IOSFluxTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +109,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19A3540BC3929B0BE229D93D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A82923400BB8A6D920C9C08D /* libPods-IOSFluxTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BEC6164432C26A29A9B0337 /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC64915819A92171A9E095 /* Dispatcher.m */,
+				1BEC6D23E8AC456F8CA8310E /* Dispatcher.h */,
+			);
+			name = Dispatcher;
+			sourceTree = "<group>";
+		};
 		1BEC6416C00FDE8ABC581D8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,19 +136,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1BEC64CB40DC89FBC474560A /* First */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC685641808BAB337C8E03 /* Actions */,
+				1BEC6164432C26A29A9B0337 /* Dispatcher */,
+				1BEC6AD13A2F3A3F6B63CDDE /* Model */,
+				1BEC6F5F0669013AF252054E /* Stores */,
+				1BEC699700221B85E7F3D4BC /* View */,
+			);
+			name = First;
+			sourceTree = "<group>";
+		};
 		1BEC650284D48F2670DAD566 /* IOSFluxTest */ = {
 			isa = PBXGroup;
 			children = (
 				1BEC675C78820D93EC17D0C3 /* Info.plist */,
 				1BEC64815F66D1660816FCDB /* Assets.xcassets */,
 				1BEC61EF4BA1A1380B95AE33 /* LaunchScreen.storyboard */,
-				1BEC6E17776073B83BB885F7 /* Supporting Files */,
 				1BEC6AC843398C48C334AB44 /* AppDelegate.h */,
 				1BEC67C488610E81B89081F3 /* AppDelegate.m */,
 				1BEC68E87304DED0E1D84C0F /* IOSFluxTest.xcdatamodeld */,
 				1BEC6556C9AD38E99B2BEC78 /* Main.storyboard */,
-				1BEC6BC16B9F0CE75FB7EBB8 /* ViewController.h */,
-				1BEC6E5C60033622BB7BA5AC /* ViewController.m */,
+				1BEC6E7904E6E7372E601B2D /* Flux */,
+				1BEC688300685DE105741E0D /* Supporting Files */,
 			);
 			path = IOSFluxTest;
 			sourceTree = "<group>";
@@ -117,6 +171,8 @@
 				1BEC650284D48F2670DAD566 /* IOSFluxTest */,
 				1BEC698FB4BDBF245421436E /* IOSFluxTestTests */,
 				1BEC67726889544D4AF1FA8C /* IOSFluxTestUITests */,
+				9FD1197F73731074A411A963 /* Pods */,
+				19A3540BC3929B0BE229D93D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +185,27 @@
 			path = IOSFluxTestUITests;
 			sourceTree = "<group>";
 		};
+		1BEC685641808BAB337C8E03 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC66B508D621EF862BDFBB /* Action.m */,
+				1BEC6FEBDBCB8E2313B2810F /* Action.h */,
+				1BEC6BCC8F78CFF5E64077E9 /* ActionsCreator.m */,
+				1BEC69F9C2DDA15905B9422A /* ActionsCreator.h */,
+				1BEC6ACC088F60A4E5072391 /* MessageAction.m */,
+				1BEC6611A8829B878D100DD8 /* MessageAction.h */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		1BEC688300685DE105741E0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC6D48CB8C13ABF1E0050F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		1BEC698FB4BDBF245421436E /* IOSFluxTestTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,12 +215,50 @@
 			path = IOSFluxTestTests;
 			sourceTree = "<group>";
 		};
-		1BEC6E17776073B83BB885F7 /* Supporting Files */ = {
+		1BEC699700221B85E7F3D4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1BEC6E00E0A28FA75AEA7ABD /* main.m */,
+				1BEC6F79C9CB69944A700CBC /* ViewController.h */,
+				1BEC668381D5879774F6626F /* ViewController.m */,
 			);
-			name = "Supporting Files";
+			name = View;
+			sourceTree = "<group>";
+		};
+		1BEC6AD13A2F3A3F6B63CDDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC6B223C265696768F8322 /* MessageModel.m */,
+				1BEC65C3990B17B539CE38F7 /* MessageModel.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1BEC6E7904E6E7372E601B2D /* Flux */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC64CB40DC89FBC474560A /* First */,
+			);
+			name = Flux;
+			sourceTree = "<group>";
+		};
+		1BEC6F5F0669013AF252054E /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC6EFD0242DAB7C89CCBD6 /* Store.m */,
+				1BEC60BC82A39E035623C89A /* Store.h */,
+				1BEC67CE566F14E8792D7909 /* MessageStore.m */,
+				1BEC6F6CD4B1C118983D499E /* MessageStore.h */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		9FD1197F73731074A411A963 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93BE323007C325BE44AC1EC5 /* Pods-IOSFluxTest.debug.xcconfig */,
+				2967248B4DB93174218C6950 /* Pods-IOSFluxTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BEC6B79FF6583C3997DB39E /* Build configuration list for PBXNativeTarget "IOSFluxTest" */;
 			buildPhases = (
+				FD12553F1A18053AFD105268 /* Check Pods Manifest.lock */,
 				1BEC6F90A9AB5974CD496551 /* Sources */,
 				1BEC650F5550CCFBDD77A87C /* Frameworks */,
 				1BEC6C5D9AA7E266CDFFFC54 /* Resources */,
+				14DB7021B9C25F26F89CCD28 /* Embed Pods Frameworks */,
+				49B0DEB5BFA18265B741FB34 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +377,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14DB7021B9C25F26F89CCD28 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49B0DEB5BFA18265B741FB34 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSFluxTest/Pods-IOSFluxTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD12553F1A18053AFD105268 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BEC6750148EC6A0676C7585 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -280,10 +446,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEC6EBDA37EAED529456B0A /* main.m in Sources */,
 				1BEC6EFBCC78B0286D7ECA2C /* AppDelegate.m in Sources */,
 				1BEC6905A33A6F1D5379F315 /* IOSFluxTest.xcdatamodeld in Sources */,
-				1BEC6D2102DFA52FD959526F /* ViewController.m in Sources */,
+				1BEC6632E3E61128FAED56C7 /* main.m in Sources */,
+				1BEC630DC6BED71C566C0993 /* Action.m in Sources */,
+				1BEC69BB906A35B44EE838A2 /* ActionsCreator.m in Sources */,
+				1BEC6BC45865F9734C02E257 /* Dispatcher.m in Sources */,
+				1BEC689C3F7B343A31DE7447 /* MessageModel.m in Sources */,
+				1BEC6F830DA9758116066B6A /* Store.m in Sources */,
+				1BEC67CD18E0553FA5E5FF42 /* MessageStore.m in Sources */,
+				1BEC6E1010D2E0B8BE1C1ED0 /* ViewController.m in Sources */,
+				1BEC6C92EAA01C0596CB2467 /* MessageAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +603,7 @@
 		};
 		1BEC662AC3204CC557CFE2D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2967248B4DB93174218C6950 /* Pods-IOSFluxTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IOSFluxTest/Info.plist;
@@ -453,6 +627,7 @@
 		};
 		1BEC6810BD4237BE4D7EC472 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BE323007C325BE44AC1EC5 /* Pods-IOSFluxTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IOSFluxTest/Info.plist;
@@ -484,6 +659,7 @@
 				1BEC6BA113A29BC8970CED1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BEC670C9567E16814860D41 /* Build configuration list for PBXNativeTarget "IOSFluxTestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +668,7 @@
 				1BEC602F51C5834685588309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BEC6B79FF6583C3997DB39E /* Build configuration list for PBXNativeTarget "IOSFluxTest" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +677,7 @@
 				1BEC662AC3204CC557CFE2D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BEC6F3863D8D43C88C1026C /* Build configuration list for PBXProject "IOSFluxTest" */ = {
 			isa = XCConfigurationList;
