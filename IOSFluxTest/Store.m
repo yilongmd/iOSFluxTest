@@ -11,6 +11,16 @@
 
 }
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.intChange = 1;
+    }
+
+    return self;
+}
+
+
 -(void) registerStore:(NSObject *) view {
 //    this.bus.register(view);
 }
@@ -21,6 +31,7 @@
 
 -(void) emitStoreChange {
     [[NSNotificationCenter defaultCenter] postNotificationName:@"changeui" object:nil userInfo:@{@"my":@"you"}];
+    self.intChange += 1;
 }
 
 

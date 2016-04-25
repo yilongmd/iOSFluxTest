@@ -14,6 +14,7 @@
 #import "NSNotificationCenter+RACSupport.h"
 #import "RACSignal.h"
 #import "MessageModel.h"
+#import "NSObject+RACPropertySubscribing.h"
 
 
 @interface ViewController ()
@@ -47,9 +48,17 @@
     [_dispatcher registerStore:_store];
 }
 -(void) setupView {
-    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"changeui" object:nil] subscribeNext:^(NSNotification* x) {
-        [self render:_store];
-    }];
+//    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"changeui" object:nil] subscribeNext:^(NSNotification* x) {
+//        [self render:_store];
+//    }];
+    [RACObserve(_store, intChange)
+            subscribeNext:^(NSNumber * x){
+                if (x.intValue>0) {
+                    [self render:_store];
+                }
+
+            }];
+//    [racobject]
 
 }
 
@@ -69,5 +78,7 @@
 - (IBAction)btnEditClick:(UIButton *)sender {
     [_actionsCreator sendMessage:_inputText.text];
     _inputText.text = @"";
+    //由于业务功能并没有庞大到需要再加入一个ViewModel的情况
+    //暂时不加入ViewModel等需要的时候添加
 }
 @end
