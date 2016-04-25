@@ -26,17 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2ec358-ab57-4d18-9e91-d2c137944f42" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IOSFluxTest/FluxActionTypes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IOSFluxTest/FluxActionTypes.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IOSFluxTest.iml" afterPath="$PROJECT_DIR$/.idea/IOSFluxTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOSFluxTest.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/IOSFluxTest.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOSFluxTest/Action.h" afterPath="$PROJECT_DIR$/IOSFluxTest/Action.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOSFluxTest/Action.m" afterPath="$PROJECT_DIR$/IOSFluxTest/Action.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOSFluxTest/ActionsCreator.m" afterPath="$PROJECT_DIR$/IOSFluxTest/ActionsCreator.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOSFluxTest/MessageAction.h" afterPath="$PROJECT_DIR$/IOSFluxTest/MessageAction.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOSFluxTest/MessageAction.m" afterPath="$PROJECT_DIR$/IOSFluxTest/MessageAction.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOSFluxTest/Dispatcher.m" afterPath="$PROJECT_DIR$/IOSFluxTest/Dispatcher.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOSFluxTest/MessageStore.m" afterPath="$PROJECT_DIR$/IOSFluxTest/MessageStore.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOSFluxTest/ViewController.m" afterPath="$PROJECT_DIR$/IOSFluxTest/ViewController.m" />
     </list>
     <ignored path="IOSFluxTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +52,8 @@
       <file leaf-file-name="MessageStore.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IOSFluxTest/MessageStore.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="317">
+              <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
               <folding>
                 <element signature="e#100#124#0" expanded="true" />
               </folding>
@@ -72,8 +64,8 @@
       <file leaf-file-name="ViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IOSFluxTest/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="67">
+              <caret line="32" column="15" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="15" />
               <folding>
                 <element signature="e#128#154#0" expanded="true" />
               </folding>
@@ -106,7 +98,7 @@
       <file leaf-file-name="MessageAction.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IOSFluxTest/MessageAction.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="159">
               <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
               <folding>
                 <element signature="e#100#125#0" expanded="true" />
@@ -150,8 +142,8 @@
       <file leaf-file-name="Dispatcher.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IOSFluxTest/Dispatcher.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="154">
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
               <folding>
                 <element signature="e#100#122#0" expanded="true" />
               </folding>
@@ -185,17 +177,17 @@
         <option value="$PROJECT_DIR$/IOSFluxTest/Dispatcher.h" />
         <option value="$PROJECT_DIR$/IOSFluxTest/MessageStore.h" />
         <option value="$PROJECT_DIR$/IOSFluxTest/Store.h" />
-        <option value="$PROJECT_DIR$/IOSFluxTest/Dispatcher.m" />
         <option value="$PROJECT_DIR$/IOSFluxTest/Store.m" />
-        <option value="$PROJECT_DIR$/IOSFluxTest/ViewController.m" />
         <option value="$PROJECT_DIR$/IOSFluxTest/ActionTypes.h" />
         <option value="$PROJECT_DIR$/IOSFluxTest/ActionsCreator.m" />
         <option value="$PROJECT_DIR$/IOSFluxTest/Action.h" />
         <option value="$PROJECT_DIR$/IOSFluxTest/Action.m" />
         <option value="$PROJECT_DIR$/IOSFluxTest/MessageAction.m" />
         <option value="$PROJECT_DIR$/IOSFluxTest/MessageAction.h" />
-        <option value="$PROJECT_DIR$/IOSFluxTest/MessageStore.m" />
         <option value="$PROJECT_DIR$/IOSFluxTest/FluxActionTypes.h" />
+        <option value="$PROJECT_DIR$/IOSFluxTest/MessageStore.m" />
+        <option value="$PROJECT_DIR$/IOSFluxTest/Dispatcher.m" />
+        <option value="$PROJECT_DIR$/IOSFluxTest/ViewController.m" />
       </list>
     </option>
   </component>
@@ -663,16 +655,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/IOSFluxTest/ViewController.m</url>
-          <line>64</line>
+          <line>69</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/IOSFluxTest/Dispatcher.m</url>
-          <line>45</line>
+          <line>46</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/IOSFluxTest/Dispatcher.m</url>
-          <line>49</line>
+          <line>50</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -879,16 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOSFluxTest/MessageAction.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="e#100#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IOSFluxTest/FluxActionTypes.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -905,10 +887,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IOSFluxTest/MessageStore.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+          <folding>
+            <element signature="e#100#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IOSFluxTest/Dispatcher.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="154">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
           <folding>
             <element signature="e#100#122#0" expanded="true" />
           </folding>
@@ -923,20 +915,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOSFluxTest/MessageStore.m">
+    <entry file="file://$PROJECT_DIR$/IOSFluxTest/MessageAction.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="159">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding>
-            <element signature="e#100#124#0" expanded="true" />
+            <element signature="e#100#125#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IOSFluxTest/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="67">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="15" />
           <folding>
             <element signature="e#128#154#0" expanded="true" />
           </folding>

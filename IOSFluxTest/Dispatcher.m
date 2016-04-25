@@ -39,6 +39,7 @@
 }
 
 -(void) unregisterStore:(Store *) store {
+    //removeObject 通过指针删除对象
     [_stores removeObject:store];
 }
 

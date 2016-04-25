@@ -24,7 +24,9 @@
 
 -(void) onAction:(Action *) action {
     if (action.type == ACTION_NEW_MESSAGE) {
-        [self.messageModel setMessage:(NSString *)action.data];
+        //业务逻辑
+        NSString *strMessage = [NSString stringWithFormat:@"%@%@",@"haha:",(NSString *)action.data];
+        [self.messageModel setMessage:strMessage];
     }
 
 

@@ -30,6 +30,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)dealloc {
+    [_dispatcher unregisterStore:_store];
+}
+
 
 -(void) initDependencies {
     //获取调度员
@@ -51,6 +55,7 @@
 
 -(void) render:(MessageStore *) store {
     _lblShow.text = store.messageModel.message;
+
 //    vMessageView.setText(store.getMessage());
 }
 
